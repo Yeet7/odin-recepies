@@ -1,7 +1,7 @@
 * {
     height: 100;
     width: 100;
-    outline: 1px pink solid;
+    /* outline: 1px pink solid; */
     box-sizing: border-box;
     background-color: black;
     color: white;
@@ -23,11 +23,11 @@
     margin-top: 50px;
 }
 
-.box, a {
+.box {
     box-sizing: content-box;
-    width: 350px;
+    width: 150px;
     background-color: lightgray;
     color: black;
-    padding: 40px;
-    margin: 5px auto 5px auto ;
+    padding: 20px 40px;
+    margin: 20px auto 20px ;
 }
