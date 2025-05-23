@@ -1,5 +1,33 @@
+* {
+    height: 100;
+    width: 100;
+    outline: 1px pink solid;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
 
-.Main {
-    font-family:'Times New Roman', Times, serif;
-    color: blue;
+#Main {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: transparent;
+}
+
+.Title {
+    text-align: center;
+    font-family: "Playwrite HU", cursive;
+}
+
+
+.Recipe-Boxes {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.box, a {
+    box-sizing: content-box;
+    width: 350px;
+    background-color: lightgray;
+    color: black;
+    padding: 40px;
+    margin: 5px auto 5px auto ;
 }
