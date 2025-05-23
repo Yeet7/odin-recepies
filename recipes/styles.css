@@ -1,0 +1,53 @@
+*{
+    /* outline: 1px lightpink solid; */
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #130707;
+    color: #f6e4e5;
+}
+
+img{
+    
+    border-radius: 4%;
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+#title, .header{
+    text-align: center;
+    font-style: italic;
+}
+
+#description{
+    margin: 20px;
+    padding: 2px 5px;
+
+    border-radius: 10px;
+    color: #130707;
+    background-color: #2c817e;
+}
+
+#ingredients{
+    margin: 20px;
+    padding: 2px 5px;
+
+    border-radius: 10px;
+    color: #130707;
+    background-color: #4555bf;
+}
+
+#steps{
+    margin: 20px;
+    padding: 2px 5px;
+
+    border-radius: 10px;
+    color:#130707;
+    background-color: #dd9c9d;
+}
+
+.home{
+    color:lightcoral
+}
